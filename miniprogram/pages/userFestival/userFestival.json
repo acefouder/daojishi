@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "selfFestival": "/components/selfFestival/selfFestival"
+  },
+  "navigationBarTitleText": "个人中心"
+}

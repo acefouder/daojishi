@@ -1,0 +1,21 @@
+<view class="lunar-container">
+  <view class="solar-wrapper">
+    <text class="form-item form-title">公历</text>
+    <picker class="picker-wrapper" mode="date" value="{{solarDate}}" start="1900-1-1" end="2100-12-31" bindchange="solarDateChange">
+      <input class="form-item form-inp" value="{{solarDate}}" disabled="true"></input>
+    </picker>
+  </view>
+  <view class="lunar-wrapper">
+    <text class="form-item form-title">农历</text>
+    <picker class="picker-wrapper" mode="date" value="{{lunarDate}}" start="1900-1-1" end="2100-12-31" bindchange="lunarDateChange">
+      <input class="form-item form-inp" value="{{lunarDate}}" disabled="true"></input>
+    </picker>
+  </view>
+  <view class="date-detail">
+    <text class="date-detail-item">{{dateInfo.date}} {{dateInfo.ncWeek}} {{dateInfo.astro}}</text>
+    <text class="date-detail-item date-detail-day">{{dateInfo.cDay}}</text>
+    <text class="date-detail-item">{{dateInfo.lYear}} {{dateInfo.IMonthCn}}{{dateInfo.IDayCn}}</text>
+    <text class="date-detail-item">{{dateInfo.gzYear}}年 【{{dateInfo.Animal}}年】</text>
+    <text class="date-detail-item">{{dateInfo.gzMonth}}月 {{dateInfo.gzDay}}日</text>
+  </view>
+</view>

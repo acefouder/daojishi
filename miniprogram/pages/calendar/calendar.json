@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "month": "/components/month/month",
+    "navbar": "/components/navbar/navbar"
+  },
+  "navigationBarTitleText": "日历"
+}

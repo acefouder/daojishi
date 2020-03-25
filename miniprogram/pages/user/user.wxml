@@ -1,0 +1,14 @@
+<view class="user-wrapper">
+  <view class="user-info">
+    <image class="user-avatar" src="{{userInfo.avatarUrl}}"></image>
+    <text class="user-name">{{userInfo.nickName}}</text>
+  </view>
+  <!-- wx:if="{{itemSelf}}" 判断是否管理员-->
+  <navigator class="user-item" wx:if="{{itemSelf}}"  url="/pages/userFestival/userFestival">
+    <text>添加倒计日期</text>
+  </navigator>
+  <navigator class="user-item" url="/pages/lunar/lunar">
+    <text>农历公历互转</text>
+  </navigator>
+  <navbar activeIndex="2"></navbar>
+</view>

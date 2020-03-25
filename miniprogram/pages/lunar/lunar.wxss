@@ -1,0 +1,47 @@
+.lunar-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://6761-gaokao-uytd8-1301646801.tcb.qcloud.la/360%E6%88%AA%E5%9B%BE20200323173815500.jpg?sign=712fafeb5c4a8c503af7ee22808d1923&t=1584956308');
+  color: #fff;
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.form-item {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 20rpx;
+}
+.form-title {
+  color: #8785a2;
+}
+.form-inp {
+  background: #ddd;
+  color: #eb8242;
+}
+.date-detail {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.date-detail-item {
+  padding: 20rpx;
+  /* color: #fff; */
+}
+.date-detail-day {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 20rpx;
+  background: #fb0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.1), -1px 2px 5px rgba(0,0,0,.1);
+  font-size: 80rox;
+}

@@ -1,0 +1,98 @@
+@import "../../style/iconfont.wxss";
+.selffestival-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5000;
+  overflow: auto;
+  background: #fff;
+}
+.form-item {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 20rpx;
+}
+.form-title {
+  display: block;
+  color: #8785a2;
+  background: #f6f6f6;
+}
+.form-inp {
+  background: #fff;
+}
+.form-textarea {
+  width: 100%;
+  height: 250rpx;
+  line-height: initial;
+  background: #fff;
+  padding: 10rpx 0 0 20rpx;
+  box-sizing: border-box;
+}
+.color-wrapper {
+  display: flex;
+  padding: 0 20rpx;
+}
+.color-item {
+  width: 50rpx;
+  height: 50rpx;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-right: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.color-item-active {
+  border-color: red;
+}
+.form-upload {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  align-items: center;
+  height: 200rpx;
+}
+.form-upload-img {
+  width: 95%;
+  margin: auto;
+  position: relative;
+}
+.preview-img {
+  width: 100%;
+  height: 100%;
+}
+.icon-del { 
+  margin-left: 20rpx;
+  color: red;
+}
+.icon-add {
+  font-size: 100rpx;
+  color: #ddd;
+}
+.submit {
+  width: 95% !important;
+  margin: 30rpx 0;
+  padding: 20rpx
+}
+.del-submit {
+  background: red !important;
+  color: #fff !important;
+}
+.painter {
+  position: absolute;
+  left: -9999rpx;
+}
+.form-upload-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 40rpx;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+}
